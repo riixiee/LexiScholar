@@ -1,0 +1,13 @@
+
+Neural Machine Translation with Attention || This paper presents a sequence to sequence model with an attention mechanism for translating text between languages, improving accuracy on long sentences.
+Convolutional Networks for Image Classification || We study deep convolutional neural networks for classifying images and show that deeper architectures improve recognition accuracy on large datasets.
+Inverted Indexes for Large Scale Text Search || An inverted index maps each term to the documents that contain it, enabling fast keyword search over very large text collections.
+TF-IDF Weighting in Document Retrieval || We analyze term frequency and inverse document frequency weighting schemes and their effect on ranking relevant documents for a user query.
+Sentiment Analysis of Social Media Posts || This work classifies the sentiment of short social media posts using machine learning and compares naive Bayes with support vector machines.
+Recommender Systems Using Collaborative Filtering || We propose a collaborative filtering approach that predicts user preferences from the ratings of similar users in an online platform.
+Blockchain for Secure Academic Records || A blockchain based system is proposed to store and verify student certificates securely, preventing tampering and forgery of academic records.
+Reinforcement Learning for Traffic Signal Control || We apply reinforcement learning to adapt traffic signal timing, reducing average vehicle waiting time at busy urban intersections.
+Named Entity Recognition in Scientific Text || This paper describes a model that identifies names of methods, datasets and authors in scientific articles using sequence labeling.
+Cloud Computing Resource Scheduling || We present a scheduling algorithm that allocates virtual machines in cloud data centers to reduce energy consumption and response time.
+Plagiarism Detection with Text Similarity || A text similarity method using cosine distance over word vectors is used to detect copied passages between student submissions.
+Gesture Recognition for Assistive Communication || We build a system that recognizes hand gestures from camera images and converts them to speech to help people with hearing impairments.

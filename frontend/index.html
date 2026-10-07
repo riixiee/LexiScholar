@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LexiScholar - Academic Document Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="aurora"><span></span><span></span><span></span></div>
+  <canvas id="stars"></canvas>
+  <header>
+    <h1>Lexi<span>Scholar</span></h1>
+    <p class="tagline">An in-memory academic document retrieval engine</p>
+  </header>
+
+  <main>
+    <form id="search-form">
+      <input type="text" id="query" placeholder="Search papers, e.g. neural networks" autocomplete="off" autofocus>
+      <button type="submit">Search</button>
+    </form>
+
+    <div class="examples">
+      Try:
+      <button class="chip" type="button">inverted index</button>
+      <button class="chip" type="button">traffic signal</button>
+      <button class="chip" type="button">neural networks</button>
+      <button class="chip" type="button">text similarity</button>
+    </div>
+
+    <div id="status"></div>
+    <div id="results"></div>
+  </main>
+
+  <footer id="stats">Connecting to search engine...</footer>
+
+      <div id="modal" class="modal hidden">
+    <div class="modal-box">
+      <button id="modal-close" type="button" aria-label="Close">&times;</button>
+      <h2 id="modal-title"></h2>
+      <div id="modal-meta"></div>
+      <p id="modal-text"></p>
+    </div>
+  </div>
+    <script src="script.js"></script>
+  <script src="bg.js"></script>
+</body>
+</html>
