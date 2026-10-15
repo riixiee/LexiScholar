@@ -1,6 +1,5 @@
 // Change this to your Railway URL when you deploy the backend
-const API_BASE = "http://localhost:7070";
-
+const API_BASE = "https://lexischolar-production.up.railway.app";
 const form = document.getElementById("search-form");
 const input = document.getElementById("query");
 const statusEl = document.getElementById("status");
