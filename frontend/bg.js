@@ -63,13 +63,6 @@
         const d = Math.sqrt(dx * dx + dy * dy);
         if (d < LINK_DIST) drawLine(stars[i].x, stars[i].y, stars[j].x, stars[j].y, (1 - d / LINK_DIST) * 0.35);
       }
-      // Lines to the mouse pointer
-      if (mouse.x !== null) {
-        const mx = stars[i].x - mouse.x;
-        const my = stars[i].y - mouse.y;
-        const md = Math.sqrt(mx * mx + my * my);
-        if (md < MOUSE_DIST) drawLine(stars[i].x, stars[i].y, mouse.x, mouse.y, (1 - md / MOUSE_DIST) * 0.5);
-      }
     }
 
     if (!reduceMotion) requestAnimationFrame(frame);
